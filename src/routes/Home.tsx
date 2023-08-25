@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between text-center">
       <div className="mt-64">
-        <p className="mb-4 text-5xl font-bold md:text-6xl lg:text-7xl">
+        <p className="mb-4 font-cursive text-6xl font-bold md:text-7xl lg:text-8xl">
           COMING SOON
         </p>
         <div className="mb-6">
