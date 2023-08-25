@@ -5,7 +5,7 @@ export default function Root() {
   return (
     <div className="relative">
       <Navbar />
-      <div>
+      <div className="container">
         <Outlet />
       </div>
     </div>
