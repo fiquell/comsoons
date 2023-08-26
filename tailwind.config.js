@@ -10,9 +10,9 @@ const config = {
         DEFAULT: "1rem",
         sm: "2rem",
         md: "3rem",
-        lg: "4rem",
-        xl: "5rem",
-        "2xl": "6rem",
+        lg: "11rem",
+        xl: "12rem",
+        "2xl": "13rem",
       },
     },
     extend: {
