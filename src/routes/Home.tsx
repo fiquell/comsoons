@@ -21,7 +21,7 @@ export default function Home() {
           NOTIFY ME
         </Link>
       </div>
-      <div className="flex min-h-screen flex-col items-center">
+      <div className="flex min-h-screen flex-col items-center justify-center">
         <p className="mb-24 font-serif text-5xl md:text-6xl lg:text-7xl">
           Meet our team of creators, designers, and problem solvers.
         </p>
@@ -46,7 +46,7 @@ export default function Home() {
           })}
         </div>
       </div>
-      <div className="mb-1 mt-24 text-center md:mt-0">
+      <div className="mb-1 mt-32 text-center">
         <p>Website by Object Society's</p>
         <p>
           &copy; Object Society's {new Date().getFullYear()}. All Right
