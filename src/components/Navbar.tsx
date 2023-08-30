@@ -31,6 +31,7 @@ export default function Navbar() {
         <Link
           key={item.label}
           to={item.url}
+          replace={true}
           onClick={toggle}
           className="px-4 py-2 font-medium md:p-0">
           {item.label}
