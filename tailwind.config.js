@@ -18,7 +18,7 @@ const config = {
     extend: {
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
-        cursive: ["Lobster Two"],
+        serif: ["Uncial Antiqua", ...defaultTheme.fontFamily.serif],
       },
     },
   },
