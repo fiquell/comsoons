@@ -2,10 +2,6 @@ import { ourTeams } from "@/constants";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  function handleCTA() {
-    alert("Looks great");
-  }
-
   return (
     <div>
       <div className="flex min-h-screen flex-col items-center justify-center text-center">
@@ -18,12 +14,12 @@ export default function Home() {
             Subscribe to our newsletter to receive notifications when we arrive.
           </p>
         </div>
-        <button
-          type="button"
-          onClick={handleCTA}
+        <Link
+          to="/contacts"
+          replace={true}
           className="rounded-md bg-neutral-100 px-8 py-3 font-bold text-neutral-900 shadow-md outline outline-2 outline-neutral-900 transition duration-300 ease-in-out hover:rotate-2 hover:scale-110">
           NOTIFY ME
-        </button>
+        </Link>
       </div>
       <div className="flex min-h-screen flex-col items-center">
         <p className="mb-24 font-serif text-5xl md:text-6xl lg:text-7xl">
