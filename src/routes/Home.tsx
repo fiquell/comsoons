@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <div className="flex min-h-screen flex-col items-center justify-center text-center">
-        <p className="mb-12 font-cursive text-6xl font-bold md:text-7xl lg:text-8xl">
+        <p className="mb-12 font-serif text-6xl md:text-7xl lg:text-8xl">
           COMING SOON
         </p>
         <div className="mb-6">
@@ -26,7 +26,7 @@ export default function Home() {
         </button>
       </div>
       <div className="flex min-h-screen flex-col items-center">
-        <p className="mb-24 font-cursive text-5xl font-bold md:text-6xl lg:text-7xl">
+        <p className="mb-24 font-serif text-5xl md:text-6xl lg:text-7xl">
           Meet our team of creators, designers, and problem solvers.
         </p>
         <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-5">
@@ -35,14 +35,15 @@ export default function Home() {
               <div key={item.name} className="text-center md:text-left">
                 <Link
                   to={item.url}
-                  className="mb-4 block rounded-tr-3xl shadow-md ring-2 ring-neutral-900 transition duration-300 ease-in-out hover:scale-105">
+                  replace={true}
+                  className="mb-4 block rounded-tr-3xl shadow-md ring ring-neutral-900 transition duration-300 ease-in-out hover:scale-105">
                   <img
                     src={item.image.src}
                     alt={item.image.alt}
                     className="h-80 w-80 rounded-tr-3xl object-cover md:h-96 md:w-96"
                   />
                 </Link>
-                <p className="text-lg font-medium">{item.name}</p>
+                <p className="font-medium">{item.name}</p>
                 <p>{item.profession}</p>
               </div>
             );
