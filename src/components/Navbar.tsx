@@ -40,7 +40,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="absolute w-full">
+    <nav className="container absolute w-full">
       <div className="flex items-center justify-between">
         <div ref={menuRef} className="relative md:hidden">
           <button type="button" onClick={toggle} className="text-3xl">
@@ -49,16 +49,14 @@ export default function Navbar() {
           </button>
           {menuOpen && (
             <div className="absolute z-50 ml-2 w-56 rounded-md bg-neutral-50 shadow-md">
-              <div className="flex flex-col justify-center gap-2 p-2">
+              <div className="flex flex-col gap-2 p-2">
                 {renderNavLinks(navLinks)}
               </div>
             </div>
           )}
         </div>
         <div className="hidden md:block">
-          <div className="flex items-center gap-2">
-            {renderNavLinks(navLinks)}
-          </div>
+          <div className="flex gap-2">{renderNavLinks(navLinks)}</div>
         </div>
         <p className="font-medium">16 Days left</p>
       </div>
