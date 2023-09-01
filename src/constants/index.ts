@@ -3,7 +3,7 @@ import { Links, Teams } from "@/types";
 export const navLinks: Links[] = [
   { label: "Home", url: "/" },
   { label: "About", url: "/about" },
-  { label: "Contacts", url: "/contacts" },
+  // { label: "Contacts", url: "/contacts" },
 ];
 
 export const ourTeams: Teams[] = [
