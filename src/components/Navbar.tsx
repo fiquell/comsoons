@@ -41,7 +41,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="container absolute w-full">
+    <nav className="container absolute z-50 w-full">
       <div className="flex items-center justify-between">
         <div ref={menuRef} className="relative md:hidden">
           <button type="button" onClick={toggle} className="text-3xl">
@@ -49,7 +49,7 @@ export default function Navbar() {
             <Icon icon="line-md:align-left" />
           </button>
           {menuOpen && (
-            <div className="absolute z-50 ml-2 w-56 rounded-md bg-neutral-50 shadow-md">
+            <div className="absolute ml-2 w-56 rounded-md bg-neutral-50 shadow-md">
               <div className="flex flex-col gap-2 p-2">
                 {renderNavLinks(navLinks)}
               </div>
