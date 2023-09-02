@@ -70,7 +70,7 @@ export default function Home() {
                     <Link
                       to={item.url}
                       replace={true}
-                      className="mb-4 block rounded-md rounded-tr-3xl shadow-md ring ring-neutral-900 transition duration-300 ease-in-out hover:scale-105">
+                      className="mb-4 block rounded-md rounded-tr-3xl shadow-md outline outline-2 outline-neutral-900 transition duration-300 ease-in-out hover:scale-105">
                       <img
                         src={item.image.src}
                         alt={item.image.alt}
