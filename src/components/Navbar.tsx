@@ -41,7 +41,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="container absolute z-50 w-full">
+    <nav className="container absolute left-0 right-0 top-0 z-50 w-full">
       <div className="flex items-center justify-between">
         <div ref={menuRef} className="relative md:hidden">
           <button type="button" onClick={toggle} className="text-3xl">
