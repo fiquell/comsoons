@@ -1,4 +1,9 @@
-import { Teams } from "@/types";
+import { Links, Teams } from "@/types";
+
+export const navLinks: Links[] = [
+  { label: "Home", url: "/" },
+  { label: "About", url: "/about" },
+];
 
 export const ourTeams: Teams[] = [
   {

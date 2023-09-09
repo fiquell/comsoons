@@ -1,5 +1,5 @@
 import "@/index.css";
-import { About, Contacts, Error, Home, Root } from "@/routes";
+import { About, Error, Home, Root } from "@/routes";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
@@ -13,7 +13,6 @@ const router = createBrowserRouter(
       children: [
         { index: true, element: <Home /> },
         { path: "/about", element: <About /> },
-        { path: "/contacts", element: <Contacts /> },
       ],
     },
   ],
