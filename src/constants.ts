@@ -1,3 +1,4 @@
+import { M1, M2, M3 } from "@/assets";
 import { Links, Teams } from "@/types";
 
 export const navLinks: Links[] = [
@@ -11,7 +12,7 @@ export const ourTeams: Teams[] = [
     profession: "Profession X",
     url: "#",
     image: {
-      src: "https://images.pexels.com/photos/12892896/pexels-photo-12892896.jpeg",
+      src: M1,
       alt: "Alt X",
     },
   },
@@ -20,7 +21,7 @@ export const ourTeams: Teams[] = [
     profession: "Profession Y",
     url: "#",
     image: {
-      src: "https://images.pexels.com/photos/12506089/pexels-photo-12506089.jpeg",
+      src: M2,
       alt: "Alt Y",
     },
   },
@@ -29,7 +30,7 @@ export const ourTeams: Teams[] = [
     profession: "Profession Z",
     url: "#",
     image: {
-      src: "https://images.pexels.com/photos/3116381/pexels-photo-3116381.jpeg",
+      src: M3,
       alt: "Alt Z",
     },
   },
