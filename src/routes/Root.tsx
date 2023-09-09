@@ -66,6 +66,13 @@ export default function Root() {
       <main className="container">
         <Outlet />
       </main>
+      <footer className="mt-32 pb-1 text-center">
+        <p>Website by Object Society's</p>
+        <p>
+          &copy; Object Society's {new Date().getFullYear()}. All Right
+          Reserved.
+        </p>
+      </footer>
     </>
   );
 }
