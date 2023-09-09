@@ -4,7 +4,7 @@ export interface Links {
 }
 
 type Image = {
-  src: string;
+  src: string | string[];
   alt: string;
 };
 

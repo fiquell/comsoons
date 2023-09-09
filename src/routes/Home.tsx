@@ -60,7 +60,7 @@ export default function Home() {
                   replace={true}
                   className="mb-4 block rounded-md rounded-tr-3xl shadow-md outline outline-2 outline-neutral-900 transition duration-300 ease-in-out hover:scale-105">
                   <img
-                    src={item.image.src}
+                    src={item.image.src.toString()}
                     alt={item.image.alt}
                     className="h-80 w-80 rounded-md rounded-tr-3xl object-cover md:h-96 md:w-96"
                   />
